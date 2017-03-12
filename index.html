@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width,initial-scale=1">
@@ -8,30 +9,37 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 		<link rel="stylesheet" href="css/stylesheet.css" type="text/css">
 	</head>
+
 	<body>
+
 		<header class="main-header">
 			<h1>The Code Review</h1>
 		</header>
+
 		<div class="wrapper">
 			<div class="welcome">
 				<h1>Signup for our form-newsletter</h1>
 				<p id="welcome-p">Get the latest news on how your code is doing right in your inbox</p>
 			</div>
+
 			<div class="border"></div>
-			<form method="post" class="form-class">
+
+			<form method="post">
 				<fieldset class="form-contact-info">
 					<legend>Contact Information</legend>
 					<br>
+
 					<label for="name">Full Name</label><br>
-					<input type="text" id="name" name="form-name" placeholder="Required"><br>
+					<input required type="text" id="form-name" name="form-name" placeholder="Required"><br>
 					<label for="email">Email Address</label><br>
-					<input type="email" id="email" name="form-email" placeholder="Required"><br>
+					<input required type="email" id="form-email" name="form-email" placeholder="Required"><br>
 					<label for="phone">Phone Number</label><br>
-					<input type="tel" id="phone" name="form-phone"><br>
+					<input type="tel" id="form-phone" name="form-phone"><br>
 					<label for="address">Street Address</label><br>
-					<input type="text" id="address" name="form-address"><br>
+					<input type="text" id="form-address" name="form-address"><br>
 					<label for="city">City</label><br>
-					<input type="text" id="city" name="form-city"><br>
+					<input type="text" id="form-city" name="form-city"><br>
+
 					<label for="states">State</label><br>
 					<select id="states" name="form-state">
 						<optgroup label="States">
@@ -88,20 +96,23 @@
 							<option value="WY">Wyoming</option>
 						</optgroup>
 					</select>
+
 					<br>
+
 					<label for="zip" id="label-zip">Zip Code</label><br>
 					<input type="text" id="zip" name="form-zip"><br>
 				</fieldset>
+
 				<div class="form-newsletter-border"></div>
 				<fieldset class="form-newsletter">
-					<legend>form-newsletter</legend>
+					<legend>Newsletter</legend>
 					<br>
 					<p class="small-margin">Select the form-newsletters you would like to recieve</p>
-					<input type="checkbox" value="html-news" name="html-news" id="html"><label for="html">HTML News</label><br>
+					<input type="checkbox" value="html-news" name="html-news" id="html" checked="checked"><label for="html">HTML News</label><br>
 					<input type="checkbox" value="css-news" name="css-news" id="css"><label for="css">CSS News</label><br>
 					<input type="checkbox" value="js-news" name="js-news" id="js"><label for="js">Javascript News</label><br>
 					<p>form-newsletter format</p>
-					<input type="radio" value="html-format" name="html-format" id="html-format"><label for="html-format">HTML</label><br>
+					<input type="radio" value="html-format" name="html-format" id="html-format" checked="checked"><label for="html-format">HTML</label><br>
 					<input type="radio" value="text-format" name="plain-format" id="plain-format"><label for="plain-format">Plain Text</label><br><br>
 					<label id="comment-label" for="form-comment">Other topics you'd like to hear about</label><br>
 					<textarea id="form-comment" name="form-comment"></textarea>
@@ -110,8 +121,10 @@
 				</fieldset>
 			</form>
 		</div>
+
 		<footer>
 			<p>Copyright The Code Review</p>
 		</footer>
+
 	</body>
 </html>
