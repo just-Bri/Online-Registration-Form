@@ -110,19 +110,19 @@
 					<p class="small-margin">Select the form-newsletters you would like to recieve</p>
 
 					<div class="formrow">					
-						<span><input type="checkbox" value="html-news" name="html-news" id="html-news" checked="checked"></span>
+						<span><input type="checkbox" name="html-news" id="html-news" checked="checked"></span>
 						<label for="html-news"> HTML News </label>
 						<div class="clearboth"></div>
 					</div>
 
 					<div class="formrow">
-						<span><input type="checkbox" value="css-news" name="css-news" id="css-news"></span>
+						<span><input type="checkbox" name="css-news" id="css-news"></span>
 						<label for="css-news"> CSS News </label>
 						<div class="clearboth"></div>
 					</div>
 
 					<div class="formrow">
-						<span><input type="checkbox" value="js-news" name="js-news" id="js-news"></span>
+						<span><input type="checkbox" name="js-news" id="js-news"></span>
 						<label for="js-news"> Javascript News </label>
 						<div class="clearboth"></div>
 					</div>
@@ -130,17 +130,19 @@
 
 					<p>Newsletter format</p>
 					<fieldset class="form-newsletter-format">
-					<div class="formrow">
-						<span><input type="radio" name="format" id="html-format" checked="checked"></span>
-						<label for="html-format"> HTML </label>
-						<div class="clearboth"></div>
-					</div>
 
-					<div class="formrow">
-						<span><input type="radio" name="format" id="plain-format"> </span>
-						<label for="plain-format"> Plain Text </label>
-						<div class="clearboth"></div>
-					</div>
+						<div class="formrow">
+							<span><input type="radio" name="format" id="html-format" checked="checked"></span>
+							<label for="html-format"> HTML </label>
+							<div class="clearboth"></div>
+						</div>
+
+						<div class="formrow">
+							<span><input type="radio" name="format" id="plain-format"> </span>
+							<label for="plain-format"> Plain Text </label>
+							<div class="clearboth"></div>
+						</div>
+
 					</fieldset>
 					<br>
 					
@@ -149,6 +151,7 @@
 					<textarea id="form-comment" name="form-comment"></textarea>
 					<br>
 					<input type="button" value="Sign Up" name="sign-up">
+
 				</fieldset>
 			</form>
 		</div>
