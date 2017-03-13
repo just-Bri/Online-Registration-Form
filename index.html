@@ -104,8 +104,8 @@
 				</fieldset>
 
 				<div class="form-newsletter-border"></div>
-				<fieldset class="form-newsletter">
 					<legend>Newsletter</legend>
+					<fieldset class="newsletter-options"
 					<br>
 					<p class="small-margin">Select the form-newsletters you would like to recieve</p>
 
@@ -126,22 +126,21 @@
 						<label for="js-news"> Javascript News </label>
 						<div class="clearboth"></div>
 					</div>
-						
+					</fieldset>
 
-					<p>Newsletter format</p>
 					<fieldset class="form-newsletter-format">
+					<p>Newsletter format</p>
+					<div class="formrow">
+						<span><input type="radio" name="format" id="html-format" checked="checked"></span>
+						<label for="html-format"> HTML </label>
+						<div class="clearboth"></div>
+					</div>
 
-						<div class="formrow">
-							<span><input type="radio" name="format" id="html-format" checked="checked"></span>
-							<label for="html-format"> HTML </label>
-							<div class="clearboth"></div>
-						</div>
-
-						<div class="formrow">
-							<span><input type="radio" name="format" id="plain-format"> </span>
-							<label for="plain-format"> Plain Text </label>
-							<div class="clearboth"></div>
-						</div>
+					<div class="formrow">
+						<span><input type="radio" name="format" id="plain-format"> </span>
+						<label for="plain-format"> Plain Text </label>
+						<div class="clearboth"></div>
+					</div>
 
 					</fieldset>
 					<br>
@@ -152,7 +151,6 @@
 					<br>
 					<input type="button" value="Sign Up" name="sign-up">
 
-				</fieldset>
 			</form>
 		</div>
 

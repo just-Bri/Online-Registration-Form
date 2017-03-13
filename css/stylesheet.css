@@ -148,7 +148,8 @@ div.formrow {
 }
 
 div.formrow span {
-	float: left; padding-bottom: 20px;
+	float: left;
+	padding-bottom: 20px;
 }
 
 div.formrow label {
@@ -162,8 +163,10 @@ div.clearboth {
 	clear: both
 }
 
-.form-newsletter label {
-	margin-left: 10px;
+div.formrow span {
+    float: left;
+    padding-bottom: 20px;
+    width: 5px;
 }
 
 #comment-label {
@@ -228,6 +231,7 @@ input, select{
   box-sizing:border-box;
 }
 
+
 /*
 MEDIA Qs
 */
@@ -239,6 +243,7 @@ MEDIA Qs
 		left: 8em;
 		margin: 0 auto;
 	}
+
 	.form-contact-info input, 
     select {
 		height: 50px;
@@ -247,13 +252,16 @@ MEDIA Qs
 		border: 0;
 		border-radius: 3px;
 	}
+
 	input[name="form-zip"] {
 		max-width: 150px;
 	}
+
 	.form-contact-info label {
 		position: relative;
 		top: 2.7em;
 	}
+
 	.form-contact-info {
 		max-width: 450px;
 	}
