@@ -24,12 +24,6 @@ select:focus {
 }
 
 
-div.formrow { width: 95%; }
-div.formrow span { float: left; padding-bottom: 20px; }
-div.formrow label { float: left; padding-left: 20px; padding-bottom: 20px; text-align: left; }
-div.clearboth { clear: both }
-
-
 /*
 HEADER STYLES
 */
@@ -147,6 +141,25 @@ NEWSLETTER
 
 .small-margin {
 	margin-top: 0;
+}
+
+div.formrow { 
+	width: 95%; 
+}
+
+div.formrow span {
+	float: left; padding-bottom: 20px;
+}
+
+div.formrow label {
+	float: left;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	text-align: left;
+}
+
+div.clearboth { 
+	clear: both
 }
 
 .form-newsletter label {
