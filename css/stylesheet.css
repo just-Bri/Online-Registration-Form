@@ -17,7 +17,9 @@ legend {
     font-size: 1.5em;
 }
 
-input:focus , textarea:focus {
+input:focus , 
+textarea:focus,
+select:focus {
     background-color: #23d6c4;
 }
 
@@ -117,7 +119,8 @@ input[name="form-zip"] {
 	max-width: 150px;
 }
 
-select:focus, textarea:focus, 
+select:focus, 
+textarea:focus, 
 input:focus {
 	border: 2px solid #272759;
 }
