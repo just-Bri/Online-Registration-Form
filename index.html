@@ -108,13 +108,42 @@
 					<legend>Newsletter</legend>
 					<br>
 					<p class="small-margin">Select the form-newsletters you would like to recieve</p>
-					<input type="checkbox" value="html-news" name="html-news" id="html" checked="checked"><label for="html">HTML News</label><br>
-					<input type="checkbox" value="css-news" name="css-news" id="css"><label for="css">CSS News</label><br>
-					<input type="checkbox" value="js-news" name="js-news" id="js"><label for="js">Javascript News</label><br>
-					<p>form-newsletter format</p>
-					<input type="radio" value="html-format" name="html-format" id="html-format" checked="checked"><label for="html-format">HTML</label><br>
-					<input type="radio" value="text-format" name="plain-format" id="plain-format"><label for="plain-format">Plain Text</label><br><br>
-					<label id="comment-label" for="form-comment">Other topics you'd like to hear about</label><br>
+
+					<div class="formrow">					
+						<span><input type="checkbox" value="html-news" name="html-news" id="html-news" checked="checked"></span>
+						<label for="html-news"> HTML News </label>
+						<div class="clearboth"></div>
+					</div>
+
+					<div class="formrow">
+						<span><input type="checkbox" value="css-news" name="css-news" id="css-news"></span>
+						<label for="css-news"> CSS News </label>
+						<div class="clearboth"></div>
+					</div>
+
+					<div class="formrow">
+						<span><input type="checkbox" value="js-news" name="js-news" id="js-news"></span>
+						<label for="js-news"> Javascript News </label>
+						<div class="clearboth"></div>
+					</div>
+						
+
+					<p>Newsletter format</p>
+					<div class="formrow">
+						<span><input type="radio" value="html-format" name="html-format" id="html-format" checked="checked"></span>
+						<label for="html-format"> HTML </label>
+						<div class="clearboth"></div>
+					</div>
+
+					<div class="formrow">
+						<span><input type="radio" value="text-format" name="plain-format" id="plain-format"> </span>
+						<label for="plain-format"> Plain Text </label>
+						<div class="clearboth"></div>
+					</div>
+					<br>
+					
+					<label id="comment-label" for="form-comment">Other topics you'd like to hear about</label>
+					<br><br>
 					<textarea id="form-comment" name="form-comment"></textarea>
 					<br>
 					<input type="button" value="Sign Up" name="sign-up">

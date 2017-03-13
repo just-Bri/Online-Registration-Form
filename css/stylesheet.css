@@ -23,10 +23,12 @@ select:focus {
     background-color: #23d6c4;
 }
 
-.form-contact-info input,
-.form-contact-info select {
-    padding-left: 20px;
-}
+
+div.formrow { width: 95%; }
+div.formrow span { float: left; padding-bottom: 20px; }
+div.formrow label { float: left; padding-left: 20px; padding-bottom: 20px; text-align: left; }
+div.clearboth { clear: both }
+
 
 /*
 HEADER STYLES
@@ -78,6 +80,11 @@ HEADER STYLES
 /*
 CONTACT INFO
 */
+
+.form-contact-info input,
+.form-contact-info select {
+    padding-left: 20px;
+}
 
 .form-contact-info {
 	padding-right: 10px;
@@ -144,16 +151,6 @@ NEWSLETTER
 
 .form-newsletter label {
 	margin-left: 10px;
-}
-
-.form-newsletter input[type="checkbox"]:checked {
-	border: 1px solid #272759;
-	background-color: #e3e3e3;
-}
-
-.form-newsletter input[type="radio"]:checked {
-	border: 1px solid #272759;
-	background-color: #e3e3e3;
 }
 
 #comment-label {
