@@ -17,7 +17,7 @@ legend {
     font-size: 1.5em;
 }
 
-input:focus {
+input:focus , textarea:focus {
     background-color: #23d6c4;
 }
 
@@ -108,7 +108,8 @@ select {
 }
 
 .form-contact-info input:hover, 
-select:hover {
+select:hover,
+textarea:hover {
     background-color: #23d6c4;
 }
 
